@@ -1,0 +1,70 @@
+.sectionHeaderWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    border-left: 5px solid rgb(236,70,152);
+    margin: 10px 0 10px;
+    background:none;
+
+    .navSocials{
+        width: 20vw;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0;
+    }
+
+    .sectionHeader{
+        margin: 0 0 5px 0;
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .sectionInfo{
+        margin: 0px 0 0 0;
+        font-family: jost;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .navAppointmentButton{
+        &:hover{
+            color: white;
+        }
+        &:hover.secondary{
+            color: black;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .sectionHeaderWrapper{
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 10px;
+        align-items: start;
+        
+        .headerActionWrapper{
+            margin-top: 20px;
+        }
+
+        .sectionHeader{
+            margin: 0 0 0px 0;
+            font-size: 25px;
+            font-weight: 600;
+        }
+        .sectionInfo{
+            margin: 0px 0 0px 0;
+            font-family: jost;
+            font-size: 14px;
+            font-weight: 400;
+        }
+        .navSocials{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    .AppointmentButtonMobileWrapper{
+        margin-top: 20px;
+    }
+
+}

@@ -1,0 +1,95 @@
+.serviceCardWrapper {
+  width: 32%;
+  background: white;
+  margin-bottom: 40px;
+  transition: all 0.2s;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.4);
+}
+.serviceCardWrapper:hover {
+  box-shadow: 0px 0 20px 0px rgba(236, 70, 152, 0.7);
+}
+.serviceCardWrapper img {
+  width: 100%;
+  margin-bottom: 0;
+}
+.serviceCardWrapper .serviceCard {
+  padding: 20px;
+  margin-top: 0;
+}
+.serviceCardWrapper .serviceCard p {
+  margin-top: 0;
+}
+.serviceCardWrapper .serviceCard h3 {
+  margin: 0px 0 10px;
+  font-weight: 800;
+  color: rgb(236, 70, 152);
+}
+.serviceCardWrapper .serviceCard table {
+  margin-bottom: 10px;
+  width: 100%;
+}
+.serviceCardWrapper .serviceCard table .servicePrice {
+  text-align: right;
+}
+.serviceCardWrapper .serviceCard table .serviceDet {
+  padding-right: 15px;
+  padding-bottom: 12px;
+}
+.serviceCardWrapper .serviceCard table .serviceDet p {
+  margin-bottom: 0;
+}
+.serviceCardWrapper .serviceCard tr {
+  font-family: jost;
+}
+.serviceCardWrapper .serviceCard h4 {
+  margin-bottom: 5px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .serviceCardWrapper {
+    width: 100%;
+    background: white;
+    margin-bottom: 30px;
+    transition: all 0.2s;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.4);
+  }
+  .serviceCardWrapper:hover {
+    box-shadow: 0px 0 20px 0px rgba(236, 70, 152, 0.7);
+  }
+  .serviceCardWrapper img {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .serviceCardWrapper .serviceCard {
+    padding: 15px;
+    margin-top: 0;
+  }
+  .serviceCardWrapper .serviceCard p {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-right: 5px;
+    font-size: 13px;
+  }
+  .serviceCardWrapper .serviceCard h3 {
+    margin: 0px 0;
+    font-weight: 800;
+    color: rgb(236, 70, 152);
+  }
+  .serviceCardWrapper .serviceCard table {
+    margin-bottom: 10px;
+  }
+  .serviceCardWrapper .serviceCard tr {
+    font-family: jost;
+  }
+  .serviceCardWrapper .serviceCard h4 {
+    margin-bottom: 5px;
+    margin-top: 15px;
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=style.css.map */

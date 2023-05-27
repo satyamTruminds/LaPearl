@@ -1,0 +1,190 @@
+.aboutWrapper {
+  font-family: bodoni moda;
+  max-width: calc(100% - 284px);
+  position: relative;
+}
+.aboutWrapper .aboutMainWrapper {
+  padding: 20px 30px;
+}
+.aboutWrapper .aboutCarousel {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.aboutWrapper .aboutCarousel .aboutSlide {
+  padding: 20px;
+  background: white;
+  width: 32%;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.aboutWrapper .aboutCarousel p {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.aboutWrapper .aboutCarousel img {
+  width: 60px;
+  height: auto;
+}
+.aboutWrapper .aboutLanding {
+  margin-top: 40px;
+  display: flex;
+  align-items: end;
+  justify-content: stretch;
+}
+.aboutWrapper .aboutLanding h1 {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.aboutWrapper .aboutLanding img {
+  width: 40%;
+}
+.aboutWrapper .aboutLanding div {
+  padding-left: 30px;
+}
+.aboutWrapper .aboutLanding div p {
+  font-family: jost;
+  font-size: 16px;
+}
+.aboutWrapper .FaqWrapper {
+  padding: 60px 0px 20px;
+}
+.aboutWrapper .ContactWrapper {
+  padding: 60px 30px;
+  background-color: #f5f5f5;
+}
+.aboutWrapper .ContactWrapper .contactInfoWrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px;
+}
+.aboutWrapper .ContactWrapper .contactInfoWrapper .contactInfo {
+  width: 48%;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  padding: 20px;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+.aboutWrapper .ContactWrapper .contactInfoWrapper .contactInfo img {
+  width: 50px;
+  height: auto;
+  margin-right: 30px;
+}
+.aboutWrapper .ContactWrapper .contactInfoWrapper .contactInfo h3 {
+  margin-bottom: 10px;
+  margin-top: 0;
+  font-weight: 600;
+}
+.aboutWrapper .ContactWrapper .contactInfoWrapper .contactInfo p {
+  margin-top: 10px;
+  font-family: jost;
+}
+
+@media only screen and (max-width: 768px) {
+  .aboutWrapper {
+    font-family: bodoni moda;
+    max-width: 100%;
+    position: relative;
+  }
+  .aboutWrapper .aboutMainWrapper {
+    padding: 20px 15px;
+  }
+  .aboutWrapper .aboutCarousel {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .aboutWrapper .aboutCarousel .aboutSlide {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .aboutWrapper .aboutCarousel p {
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+  .aboutWrapper .aboutCarousel img {
+    width: 60px;
+    height: auto;
+  }
+  .aboutWrapper .aboutLanding {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+  }
+  .aboutWrapper .aboutLanding h1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .aboutWrapper .aboutLanding img {
+    width: 100%;
+  }
+  .aboutWrapper .aboutLanding div {
+    padding-left: 0px;
+  }
+  .aboutWrapper .aboutLanding div p {
+    font-family: jost;
+    font-size: 14px;
+  }
+  .aboutWrapper .FaqWrapper {
+    padding: 60px 0px 30px;
+  }
+  .aboutWrapper .ContactWrapper {
+    padding: 40px 5px;
+    background-color: #f5f5f5;
+  }
+  .aboutWrapper .ContactWrapper .contactInfoWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 0px;
+  }
+  .aboutWrapper .ContactWrapper .contactInfoWrapper .contactInfo {
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 8px;
+    transition: all 0.3s;
+  }
+  .aboutWrapper .ContactWrapper .contactInfoWrapper .contactInfo img {
+    width: 30px;
+    height: auto;
+    margin-right: 30px;
+  }
+  .aboutWrapper .ContactWrapper .contactInfoWrapper .contactInfo h3 {
+    margin-bottom: 10px;
+    margin-top: 0;
+    font-weight: 600;
+  }
+  .aboutWrapper .ContactWrapper .contactInfoWrapper .contactInfo p {
+    margin-top: 10px;
+    font-family: jost;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,71 @@
+.blogWrapper {
+  font-family: bodoni moda;
+  max-width: calc(100% - 284px);
+  position: relative;
+}
+.blogWrapper .blogListWrapper {
+  padding: 20px 30px;
+}
+.blogWrapper .backButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: black;
+  font-family: bodoni moda;
+  color: white;
+  margin: 20px 0;
+}
+.blogWrapper .blogView {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: start;
+  margin-top: 40px;
+  width: 100%;
+}
+.blogWrapper .blogViewExpanded {
+  width: 100%;
+}
+.blogWrapper .blogViewExpanded .blogImg {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.blogCardWrapper {
+  display: flex;
+  width: 31%;
+  flex-direction: column;
+  align-items: start;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+.blogCardWrapper h4 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.blogCardWrapper .blogImage {
+  background: url("../../../Assets/blog1.jpg");
+  background-size: cover;
+}
+.blogCardWrapper .readMore {
+  background: black;
+  color: white;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-family: jost;
+}
+
+@media only screen and (max-width: 768px) {
+  .blogWrapper {
+    font-family: bodoni moda;
+    max-width: 100%;
+  }
+  .blogWrapper .blogListWrapper {
+    padding: 20px 15px;
+  }
+  .blogCardWrapper {
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */

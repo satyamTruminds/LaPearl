@@ -1,0 +1,159 @@
+.desktopNavWrapper {
+  background: linear-gradient(rgb(236, 70, 152), rgba(236, 70, 152, 0.9), rgba(255, 255, 255, 0.9)), url("../../../Assets/navBg.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 40px 0 0;
+  height: 100vh;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+  max-width: 284px;
+}
+.desktopNavWrapper .logo {
+  width: 200px;
+  margin: 0 42px;
+}
+.desktopNavWrapper .navWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.desktopNavWrapper .navWrapper .navButton {
+  padding: 15px 0;
+  background: none;
+  color: white;
+  border: 0px;
+  font-size: 18px;
+  font-family: jost;
+  transition: all 0.3s;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 500;
+}
+.desktopNavWrapper .navWrapper .navButton:hover {
+  font-weight: 700;
+  color: black;
+  background: white;
+  font-size: 20px;
+}
+.desktopNavWrapper .navWrapper .navButton + .active {
+  font-weight: 700;
+  color: black;
+  background: white;
+  font-size: 20px;
+}
+.desktopNavWrapper .navAppointment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  color: #000;
+  font-size: 13px;
+  font-weight: 400;
+  padding-bottom: 20px;
+  background: white;
+  padding-top: 25px;
+}
+.desktopNavWrapper .navAppointment .navAppointmentDetails {
+  display: flex;
+  font-family: jost;
+  align-items: center;
+  font-weight: 400;
+  width: 100%;
+  padding: 0px 20px;
+}
+.desktopNavWrapper .navAppointment .navAppointmentDetails img {
+  margin-right: 20px;
+}
+.desktopNavWrapper .navAppointment .navAppointmentDetails p {
+  margin: 13px 0;
+}
+.desktopNavWrapper .navAppointment .navSocials {
+  margin-top: 25px;
+  width: 100%;
+  display: flex;
+  padding: 0 22px;
+  justify-content: space-between;
+}
+.desktopNavWrapper .navAppointment .navSocialIcon {
+  width: 20px;
+  height: auto;
+}
+
+.navAppointmentButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: black;
+  font-family: jost;
+  color: white;
+  border: 1px solid black;
+  text-decoration: none;
+}
+
+.navAppointmentButton.secondary {
+  background: #f5f5f5;
+  color: black;
+  border: 1px solid black;
+  margin-right: 10px;
+}
+
+.mobileNavWrapper {
+  display: none;
+}
+
+.navbar {
+  display: none !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .desktopNavWrapper {
+    display: none !important;
+  }
+  .desktopNavWrapper .navWrapper:active {
+    font-weight: 600;
+    color: black;
+    background: white;
+    font-size: 20px;
+  }
+  .navAppointmentButton {
+    padding: 10px 20px;
+    font-size: 14px;
+    background: black;
+    font-family: jost;
+    color: white;
+    border: 1px solid black;
+    text-decoration: none;
+  }
+  .mobileNavWrapper {
+    display: block !important;
+    background: rgb(236, 70, 152);
+  }
+  .mobileNavWrapper .navButton {
+    text-decoration: none;
+    color: white;
+  }
+  .mobileNavWrapper .navbar-collapse {
+    padding-top: 10px;
+  }
+  .mobileNavWrapper .nav-link {
+    padding: 10px 10px;
+    color: white;
+    font-family: bodoni moda;
+  }
+  .mobileNavWrapper .logo {
+    width: 100px;
+    margin: 0 10px;
+  }
+  .mobileNavWrapper .navbar-toggler {
+    border-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}/*# sourceMappingURL=style.css.map */

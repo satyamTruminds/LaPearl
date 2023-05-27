@@ -1,0 +1,82 @@
+.blogWrapper{
+    font-family: bodoni moda;
+    max-width: calc(100% - 284px);
+    position: relative;
+
+    .blogListWrapper{
+        padding: 20px 30px;
+    }
+
+    .backButton{
+        padding: 10px 20px;
+        font-size: 16px;
+        background: black;
+        font-family: bodoni moda;
+        // letter-spacing: 0.5px;
+        color: white;
+        margin: 20px 0;
+    }
+
+    .blogView{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: start;
+        margin-top: 40px;
+        width: 100%;
+
+    }
+
+    .blogViewExpanded{
+        width: 100%;
+
+        .blogImg{
+            width: 100%;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+.blogCardWrapper{
+    display: flex;
+    width: 31%;
+    flex-direction: column;
+    align-items: start;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+
+    h4{
+        margin-bottom: 10px;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .blogImage{
+        background: url('../../../Assets/blog1.jpg');
+        background-size: cover;
+    }
+
+    .readMore{
+        background: black;
+        color: white;
+        padding: 10px 20px;
+        font-size: 14px;
+        font-family: jost;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .blogWrapper{
+        font-family: bodoni moda;
+        max-width: 100% ;
+        .blogListWrapper{
+            padding: 20px 15px;
+        }
+    }
+
+    .blogCardWrapper{
+        width: 100%;
+    }
+}
