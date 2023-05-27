@@ -126,8 +126,8 @@ const Gallery = () => {
               <div>
                 <h3>Book an Appoinment</h3>
                 <p>
-                  To book an appointment, please get in touch using one the
-                  options provided
+                  To book an appointment, please get in touch using one of the
+                  options provided or call us on 021 026 07273.
                 </p>
                 {/* <p>
                                     Mon - Fri : 10am - 4pm <br/>
