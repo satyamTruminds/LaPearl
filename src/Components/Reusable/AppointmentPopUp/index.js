@@ -25,18 +25,18 @@ const AppointmentPopUp = (props) => {
           provided
         </p>
         <div className="navSocials">
-          <a className="navSocialLink" href="#">
-            <img className="navSocialIcon" src={Phone} />
-          </a>
-          <a className="navSocialLink" href="#">
-            <img className="navSocialIcon" src={Fb} />
-          </a>
-          <a className="navSocialLink" href="#">
-            <img className="navSocialIcon" src={Instagram} />
-          </a>
-          <a className="navSocialLink" href="#">
-            <img className="navSocialIcon" src={Whatsapp} />
-          </a>
+        <a className='navSocialLink' href="tel:+64272451641">
+                    <img className='navSocialIcon' src={Phone}/>
+                </a>
+                <a className='navSocialLink' target='_blank' href="https://www.facebook.com/pages/category/hair-salon/La-Pearl-Beauty-Studio-652425244861774/">
+                    <img className='navSocialIcon' src={Fb}/>
+                </a>
+                <a className='navSocialLink' target='_blank' href="https://www.facebook.com/pages/category/hair-salon/La-Pearl-Beauty-Studio-652425244861774/">
+                    <img className='navSocialIcon' src={Instagram}/>
+                </a>
+                <a className='navSocialLink' href="https://wa.link/hgo2a3" target='_blank'>
+                    <img className='navSocialIcon' src={Whatsapp}/>
+                </a>
         </div>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d65238383.71714703!2d76.34844634110172!3d-3.625157028285501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d4003546629fbed%3A0xfd485c10e29f650d!2sLa%20Pearl%20Beauty%20Studio!5e0!3m2!1sen!2sin!4v1682275969111!5m2!1sen!2sin"

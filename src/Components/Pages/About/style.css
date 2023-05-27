@@ -102,7 +102,7 @@
     padding: 20px 15px;
   }
   .aboutWrapper .aboutCarousel {
-    margin-top: 80px;
+    margin-top: 40px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -133,6 +133,7 @@
     justify-content: center;
   }
   .aboutWrapper .aboutLanding h1 {
+    margin-top: 20px;
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 10px;
@@ -148,7 +149,7 @@
     font-size: 14px;
   }
   .aboutWrapper .FaqWrapper {
-    padding: 60px 0px 30px;
+    padding: 60px 0px 0px;
   }
   .aboutWrapper .ContactWrapper {
     padding: 40px 5px;

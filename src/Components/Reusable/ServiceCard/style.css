@@ -84,6 +84,13 @@
   .serviceCardWrapper .serviceCard table {
     margin-bottom: 10px;
   }
+  .serviceCardWrapper .serviceCard table .serviceDet {
+    padding-right: 10px;
+    padding-bottom: 12px;
+  }
+  .serviceCardWrapper .serviceCard table .serviceDet p {
+    margin-bottom: 0;
+  }
   .serviceCardWrapper .serviceCard tr {
     font-family: jost;
   }

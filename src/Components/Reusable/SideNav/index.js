@@ -60,16 +60,16 @@ const SideNav = () => {
                     <p>Mon - Fri : 10am - 4pm <br />Sat - Sun : 11am - 5pm</p>
                 </div>
                 <div className='navSocials'>
-                    <a className='navSocialLink' href="#">
+                    <a className='navSocialLink' href="tel:+64272451641">
                         <img className='navSocialIcon' src={Phone}/>
                     </a>
-                    <a className='navSocialLink' href="#">
+                    <a className='navSocialLink' target='_blank' href="https://www.facebook.com/pages/category/hair-salon/La-Pearl-Beauty-Studio-652425244861774/">
                         <img className='navSocialIcon' src={Fb}/>
                     </a>
-                    <a className='navSocialLink' href="#">
+                    <a className='navSocialLink' target='_blank' href="https://www.facebook.com/pages/category/hair-salon/La-Pearl-Beauty-Studio-652425244861774/">
                         <img className='navSocialIcon' src={Instagram}/>
                     </a>
-                    <a className='navSocialLink' href="#">
+                    <a className='navSocialLink' target='_blank' href="https://wa.link/hgo2a3">
                         <img className='navSocialIcon' src={Whatsapp}/>
                     </a>
                 </div>
