@@ -29,7 +29,7 @@ const Blog = () => {
             {visible && <>
                 <button className='backButton' onClick={backClick}>Go Back</button>
                 <div className='blogViewExpanded'>
-                    <h1>A spa is a location where mineral-rich spring water</h1>
+                    <h1>Why is getting regular facials by a professional important for your skin care?</h1>
                     <hr />
                     <p className='blogViewDate'>22 May 2023</p>
                     <img className='blogImg' src={blogImage} />
