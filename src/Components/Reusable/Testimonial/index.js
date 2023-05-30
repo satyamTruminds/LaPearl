@@ -1,8 +1,14 @@
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import profile from "../../../Assets/profile.jpg";
+// import profile from "../../../Assets/profile.jpg";
 import "./style.css";
 import quote from '../../../Assets/quote.svg'
+import Kyra from '../../../Assets/Testimonials/Kyra Garrett.jpg'
+import Shontelle from '../../../Assets/Testimonials/Shontelle Mortensen.jpg'
+import Mahalia from '../../../Assets/Testimonials/Mahalia Mareikura.jpg'
+import Ngareta from '../../../Assets/Testimonials/Ngareta Patea.jpg'
+import Stevie from '../../../Assets/Testimonials/Stevie-Rae Brynes.jpg'
+import Toni from '../../../Assets/Testimonials/Toni Connell-Regan.jpg'
 
 const Testimonial = () => {
   return (
@@ -19,7 +25,7 @@ const Testimonial = () => {
     >
       <div className="testimonial">
         <div className="testimonialOwner">
-          <img className="testimonialOwnerImage" src={profile} />
+          <img className="testimonialOwnerImage" src={Kyra} />
           <p className="ownerName">Kyra Garrett</p>
         </div>
         <hr className="hrMain" />
@@ -32,7 +38,7 @@ const Testimonial = () => {
       </div>  
       <div className="testimonial">
         <div className="testimonialOwner">
-          <img className="testimonialOwnerImage" src={profile} />
+          <img className="testimonialOwnerImage" src={Shontelle} />
           <p className="ownerName">Shontelle Mortensen</p>
         </div>
         <hr className="hrMain" />
@@ -45,7 +51,7 @@ const Testimonial = () => {
       </div>
       <div className="testimonial">
         <div className="testimonialOwner">
-          <img className="testimonialOwnerImage" src={profile} />
+          <img className="testimonialOwnerImage" src={Mahalia} />
           <p className="ownerName">Mahalia Mareikura</p>
         </div>
         <hr className="hrMain" />
@@ -58,7 +64,7 @@ const Testimonial = () => {
       </div>    
       <div className="testimonial">
         <div className="testimonialOwner">
-          <img className="testimonialOwnerImage" src={profile} />
+          <img className="testimonialOwnerImage" src={Ngareta} />
           <p className="ownerName">Ngareta Patea</p>
         </div>
         <hr className="hrMain" />
@@ -71,7 +77,7 @@ const Testimonial = () => {
       </div>    
       <div className="testimonial">
         <div className="testimonialOwner">
-          <img className="testimonialOwnerImage" src={profile} />
+          <img className="testimonialOwnerImage" src={Stevie} />
           <p className="ownerName">Stevie-Rae Byrnes</p>
         </div>
         <hr className="hrMain" />
@@ -84,7 +90,7 @@ const Testimonial = () => {
       </div>    
       <div className="testimonial">
         <div className="testimonialOwner">
-          <img className="testimonialOwnerImage" src={profile} />
+          <img className="testimonialOwnerImage" src={Toni} />
           <p className="ownerName">Toni Connell-Regan</p>
         </div>
         <hr className="hrMain" />
