@@ -13,6 +13,7 @@ import "./style.css"
 import AppointmentButton from '../../Reusable/AppointmentButton'
 import services from './services'
 
+
 const HomePage = () => {
   return (
     <div className='homepageWrapper'>
@@ -29,7 +30,7 @@ const HomePage = () => {
                 <div className='serviceView'>
                     {Object.keys(services).map((e)=> {
                         return(
-                            <ServiceCard src={ServiceIMg} details={services[e]} service={e} />
+                            <ServiceCard src={services[e].img} details={services[e]} service={e} />
                         )
                     })}
                 </div>

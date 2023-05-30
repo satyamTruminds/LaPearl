@@ -9,7 +9,7 @@ const ServiceCard = (props) => {
           <thead><th><h3>{props.service}</h3></th></thead>
           <tbody>
             {
-              Object.keys(props.details).map((e) => {
+              Object.keys(props.details).filter(e => e!=="img").map((e) => {
                 return(
                   <tr>
                     <td className='serviceDet'>
